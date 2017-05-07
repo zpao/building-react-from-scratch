@@ -1,0 +1,19 @@
+{
+  "main": "dilithium",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "watch": "webpack --progress --colors --watch"
+  },
+  "dependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "circular-dependency-plugin": "^1.1.0",
+    "webpack": "^1.13.2"
+  },
+  "babel": {
+    "plugins": [
+      "transform-class-properties"
+    ]
+  }
+}
